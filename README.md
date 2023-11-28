@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I am applying MERRA-2 Global Data to a variables concerning submicron dust and the Aerosol Optical Thickness of submicron sust. 
+I am applying MERRA-2 Global Data to a variables concerning submicron dust and the Aerosol Optical Thickness of submicron dust. 
 In general, the aim to to describe the influence of submicron dust on a global scale during a selected year, and visualise certain regions throughout the globe that are uniquely prone to anomalies, correlations, etc.
 
 ## Data
