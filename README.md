@@ -1,11 +1,11 @@
-# Global Dust Throughout 2015 regarding 
+# Analysis of Phenomena Related to Submicron Dust Throughout 2015 
  
 ## Aidin Raphael Abramowitz
 
 ## Introduction
 
-I am applying MERRA-2 Global Data to a variety of different dust related variables to determine unique phenomena.
-In general, the aim to to describe the influence of dust on a global scale during a selected year, and visualise certain regions throughout the globe that are uniquely prone to anomalies, correlations, and other interpretations.
+I am applying MERRA-2 Global Data to a variables concerning submicron dust and the Aerosol Optical Thickness of submicron sust. 
+In general, the aim to to describe the influence of submicron dust on a global scale during a selected year, and visualise certain regions throughout the globe that are uniquely prone to anomalies, correlations, etc.
 
 ## Data
 
@@ -16,6 +16,7 @@ Dimensions: longitude=576, latitude=361, time=24, Global
 Data includes 115 different data variables
 
 AND 
+
 North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/data/climateindices/list/) that has monthly data from 1948-2023.
 
 ## Code Description (Links Included)
@@ -48,7 +49,7 @@ Finally, submicron dust emmisions are particuarly week monthy. However, months w
 
 ## Summary
 
-Many of the results found were expected as Saharan and African dust would be expected to influence many of the global results. For example, areas with Positive coorelation coefficients have dusty and desert-like climates, so a coorelation between Submicron Dust Emissions and Dust Extinction AOT is not unexpected. In general, Submicron Dust Emmisions and Dust Extinction AOT throughout the project had expected results based on global geography. However, since winds pick up aerosols from the ocean and well as land, I expected there to be a statistically signficant coorelation between dust and sea salt. However, this did not seem to be the case. In regards to the project, I learned to use various statistical techniques and learned out to organize data to produce meaningful composites and plots. One issue I had to overcome however was how my data was initially. Firstly, my files were seperated by day initally, and have over 115 data variables, making them quite large in size. Pulling out the required data, was time consuming, but was eventually overcome. In the future, finding datasets rthat are better organized could be more conducive to the research process. 
+Many of the results such as those related to Saharan and African dust were be expected to influence many of the global results. For example, areas with Positive coorelation coefficients have dusty and desert-like climates, so a coorelation between Submicron Dust Emissions and Dust Extinction AOT is not unexpected. In general, Submicron Dust Emmisions and Dust Extinction AOT throughout the project had expected results based on global geography. However, since winds pick up aerosols from the ocean and well as land, I expected there to be a statistically signficant coorelation between dust and sea salt. However, this did not seem to be the case. In regards to the project, I learned to use various statistical techniques and learned out to organize data to produce meaningful composites and plots. One issue I had to overcome however was how my data was initially. Firstly, my files were seperated by day initally, and have over 115 data variables, making them quite large in size. Pulling out the required data, was time consuming, but was eventually overcome. In the future, finding datasets rthat are better organized could be more conducive to the research process. 
 
 
 
