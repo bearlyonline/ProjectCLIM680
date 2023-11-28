@@ -31,7 +31,7 @@ North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/
 
 - Calculated the temporal coorelation coefficient between Submicron Dust Emissions (Bin 001) and Dust Extinction AOT (550 nm) - PM 1.0 um. This is of specific interest, as it allows us to determine if the correlation between the two are linearly related enough to be of research interest. Therfore, I applied code that found the [Coorelation Coefficient](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CoorelationCoef.ipynb) throughout the globe. As well, I used a function to create the tick marks for the latitude and longitude for the plot.
 
-- I created a composite the year of 2015 for both Submicron Dust Emissions (Bin 001) and Submicron Sea Salt Emissions (Bin 001), and made a scatter plot to demonstrate if globally there was a coorelation that was signficant. For Bin 001 for Sea Salt Emissions, this max radius sizes of note are 0.079 and 0.316 for sea salt. [Coorelation With Statistical Signficance link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/ComparisonBetter.ipynb)
+- I created a composite for the year of 2015 for both Submicron Dust Emissions (Bin 001) and Submicron Sea Salt Emissions (Bin 001), and made a scatter plot to demonstrate if globally there was a coorelation that was signficant. For Bin 001 for Sea Salt Emissions, this max radius sizes of note are 0.079 and 0.316 for sea salt. [Coorelation With Statistical Signficance link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/ComparisonBetter.ipynb)
 
 
 ## Results
