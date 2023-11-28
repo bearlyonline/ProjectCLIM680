@@ -21,7 +21,7 @@ North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/
 
 - Average Submicron Dust Emissions (Bin 001) globally on the day of [August 25th, 2015](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb). When a bin is mentioned it refers to the contraption that measures various sizes of aerosols. For our purposes (Bin 001) refers to the smallest dust particles MERRA-2 can measure at a submicron level with a max radius of 0.73 microns for dust.
 
-- Next, I wanted to show how each month varied in regards to Aerosol Optical Thickness (AOT) at (550 nm) - PM 1.0 um. AOT is a measure of aerosols distributed with a column of air.
+- Next, I wanted to show how each month varied in regards to Aerosol Optical Thickness (AOT) at (550 nm) - PM 1.0 um. AOT is a measure of aerosols distributed with a column of air, which can signify its abundance in the air within various regions.
     - To seperate by month, we used the groupby function. This can be found in other codes used throughout this project. [AOT link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CompositeAOT.ipynb)
 
 
