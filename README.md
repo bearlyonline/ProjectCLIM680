@@ -1,5 +1,4 @@
 --- 
-layout: default
 title: Analysis of Phenomena Related to Submicron Dust and Aerosol Optical Thickness (AOT) Throughout 2015 
 description: Aidin Raphael Abramowitz
 ---
