@@ -18,4 +18,4 @@ Data includes 115 different data variables
 
 AND 
 
-North Atlantic Oscillation Climate Indicies from [NOAA](https://psl.noaa.gov/data/climateindices/list/) that has monthly data from 1948-2023.
+North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/data/climateindices/list/) that has monthly data from 1948-2023.
