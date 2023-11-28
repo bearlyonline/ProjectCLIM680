@@ -1,4 +1,4 @@
-# MERRA-2 GLOBAL DUST AND ITS IMPLICATIONS
+# Global Dust Throughout 2015 regarding 
  
 ## Aidin Raphael Abramowitz
 
@@ -16,13 +16,12 @@ Dimensions: longitude=576, latitude=361, time=24, Global
 Data includes 115 different data variables
 
 AND 
-
 North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/data/climateindices/list/) that has monthly data from 1948-2023.
 
 ## Code Description (Links Included)
 
-- Average Submicron Dust Emissions (Bin 001) globally on the day of [August 25th, 2015](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb).
-
+- Average Submicron Dust Emissions (Bin 001) globally on the day of [August 25th, 2015](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb). When a bin is mentioned it refers to the contraption that measures various sizes of aerosols. For our purposes (Bin 001) refers to the smallest dust particles MERRA-2 can measure at a submicron level with a max radius of 0.73 microns for dust.
+- 
 - Next, I wanted to show how each month varied in regards to Aerosol Optical Thickness (AOT) at (550 nm) - PM 1.0 um. AOT is a measure of aerosols distributed with a column of air.
     - To seperate by month, we used the groupby function. This can be found in other codes used throughout this project. [AOT link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CompositeAOT.ipynb)
 
@@ -31,7 +30,7 @@ North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/
 
 - Calculated the temporal coorelation coefficient between Submicron Dust Emissions (Bin 001) and Dust Extinction AOT (550 nm) - PM 1.0 um. This is of specific interest, as it allows us to determine if the correlation between the two are linearly related enough to be of research interest. Therfore, I applied code that found the [Coorelation Coefficient](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CoorelationCoef.ipynb) throughout the globe. As well, I used a function to create the tick marks for the latitude and longitude for the plot.
 
-- I created a composite the year of 2015 for both Submicron Dust Emissions (Bin 001) and Submicron Sea Salt Emissions (Bin 001) , and made a scatter plot to demonstrate if globally there was a coorelation that was signficant. [Coorelation With Statistical Signficance link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/ComparisonBetter.ipynb)
+- I created a composite the year of 2015 for both Submicron Dust Emissions (Bin 001) and Submicron Sea Salt Emissions (Bin 001), and made a scatter plot to demonstrate if globally there was a coorelation that was signficant. For Bin 001 for Sea Salt Emissions, this max radius sizes of note are 0.079 and 0.316 for sea salt. [Coorelation With Statistical Signficance link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/ComparisonBetter.ipynb)
 
 
 ## Results
@@ -45,11 +44,11 @@ In the negative phase months, there was a fairly even mix of positive and negati
 
 Next, the correlation between Submicron Dust Emissions (Bin 001) and Dust Extinction AOT (550 nm - PM 1.0) um during the year of 2015 was found. As reinforced by previous code, Saharan Africa is particularly notable. However regions such as the western coast of South America, Western North America, and Australia show coorelations. In Australia, The Middle East, Most of Saharan Africa, and areas of North America (such as Arizona and surrounding areas), South America, and Northern China, a positive coorelation coefficient could be found. Small areas of South America, North America, Saharan Africa, and China experienced negative, and less pronounced, correlation coefficients. Areas with Positive coorelation coefficients have dusty and desert-like climates, so a coorelation between the two is not unexpected.
 
-Finally, submicron dust emmisions are particuarly week monthy. However, months with relatively larger values include, January, March, March and December in the center of Northern Africa. For Sea Salt Emissions, particularly large averages occured in June, July, and August. These occured around the Arabian Sean and Indian Ocean. As well as off the Eastern Coast of China. With a scatter plot, it was found that there was a very small negative coorelation between the two with a p-value of 0.05. This suggests that there is likely little no no coorelation between the two variables.  
+Finally, submicron dust emmisions are particuarly week monthy. However, months with relatively larger values include, January, March, March and December in the center of Northern Africa. For Sea Salt Emissions, particularly large averages occured in June, July, and August. These occured around the Arabian Sean and Indian Ocean. As well as off the Eastern Coast of China. With a scatter plot, it was found that there was a very small negative coorelation between the two with a p-value of 0.05. This suggests that there is likely little to no coorelation between the two variables.  
 
 ## Summary
 
-Many of the results found were expected as Saharan and African dust would be expected to influence many of the global results. For example, areas with Positive coorelation coefficients have dusty and desert-like climates, so a coorelation between Submicron Dust Emissions and Dust Extinction AOT is not unexpected. However, since winds pick up aerosols from the ocean and well as land, I expected there to be a statistically signficant coorelation between dust and sea salt. However, this did not seem to be the case. In regards to the project, I learned to use various statistical techniques and learned out to organize data to produce meaningful composites and plots. One issue I had to overcome however was how my data was initially. There were many variables within the initial file, which made it particualry difficult to load within Jupyter. In the future, finding datasets with less variables might be more conducive to efficiently making plots. 
+Many of the results found were expected as Saharan and African dust would be expected to influence many of the global results. For example, areas with Positive coorelation coefficients have dusty and desert-like climates, so a coorelation between Submicron Dust Emissions and Dust Extinction AOT is not unexpected. In general, Submicron Dust Emmisions and Dust Extinction AOT throughout the project had expected results based on global geography. However, since winds pick up aerosols from the ocean and well as land, I expected there to be a statistically signficant coorelation between dust and sea salt. However, this did not seem to be the case. In regards to the project, I learned to use various statistical techniques and learned out to organize data to produce meaningful composites and plots. One issue I had to overcome however was how my data was initially. Firstly, my files were seperated by day initally, and have over 115 data variables, making them quite large in size. Pulling out the required data, was time consuming, but was eventually overcome. In the future, finding datasets rthat are better organized could be more conducive to the research process. 
 
 
 
