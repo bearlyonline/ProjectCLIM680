@@ -21,7 +21,15 @@ North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/
 
 ## Code Description
 
-Based on my own graduate research, the day of August 25th, 2015 is of specific interest. While my own research is focused on a much smaller region, I was curious to know the level of submicron dust globally on that day. [August 25th](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb)
+Based on my own graduate research, the day of August 25th, 2015 is of specific interest. While my own research is focused on a much smaller region, I was curious to know the level of submicron dust globally on the day of [August 25th, 2015](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb)
+
+Next, I wanted to show how each month varied in regards to Aerosol Optical Thickness (AOT). AOT is a measure of aerosols distributed with a column of air. Higher values in the composite graphs I made should represent where dust is most commonly distributed throughout the globe during various months. From there, we can extrapolate its meaning. [AOT](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CompositeAOT.ipynb)
+
+As well, it is important to compare Aerosol Optical Thickness to various atmospheric phenomena. More specifically, I decided to focus on the North Atlantic Oscillation (NAO). NAO refers to changes in pressure patterns in the atmosphere over the north Atlantic. As a signficant amount of dust comes from the Sahara in Africa and is picked up by those winds influenced by pressure patterns, this was of specific interest. Using an NAO index from NOAA and Previous AOT data, I looked at Positive and Negative months in the year of 2015, to determine where AOT Anomalies were positively or negatively coorelated. [NAO To AOT composite](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/NAOtoAOTcomposite.ipynb)
+
+
+
+
 
 ## Results
 
