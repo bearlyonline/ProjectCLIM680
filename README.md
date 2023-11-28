@@ -1,7 +1,3 @@
-# Analysis of Phenomena Related to Submicron Dust and Aerosol Optical Thickness (AOT) Throughout 2015 
-
-## Aidin Raphael Abramowitz
-
 ## Introduction
 
 I am applying MERRA-2 Global Data to a variables concerning submicron dust and the Aerosol Optical Thickness of submicron sust. 
