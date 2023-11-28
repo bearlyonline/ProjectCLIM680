@@ -21,7 +21,7 @@ North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/
 
 ## Code Description (Links Included)
 
-Based on my own graduate research, the day of August 25th, 2015 is of specific interest. While my own research is focused on a much smaller region, I was curious to know the level of submicron dust globally on the day of [August 25th, 2015](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb).
+Based on my own graduate research, the day of August 25th, 2015 is of specific interest. While my own research is focused on a much smaller region, I was curious to know the level of Submicron Dust Emissions (Bin 001) globally on the day of [August 25th, 2015](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb).
 
 Next, I wanted to show how each month varied in regards to Aerosol Optical Thickness (AOT) at (550 nm) - PM 1.0 um. AOT is a measure of aerosols distributed with a column of air. Higher values in the composite graphs I made should represent where dust is most commonly distributed throughout the globe during various months. From there, we can extrapolate its meaning. To seperate by month, we used the groupby function. This can be found in other codes used throughout this project. [AOT link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CompositeAOT.ipynb)
 
@@ -29,12 +29,12 @@ As well, it is important to compare the previous Aerosol Optical Thickness to va
 
 Next, I wanted to determine the temporal coorelation coefficient between Submicron Dust Emission (Bin 001) and Dust Extinction AOT (550 nm) - PM 1.0 um. This is of specific interest, as it allows us to determine if the correlation between the two are linearly related enough to be of research interest. Therfore, I applied code that found the [Coorelation Coefficient](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CoorelationCoef.ipynb) throughout the globe. As well, I used a function to create the tick marks for the latitude and longitude for the plot.
 
-Finally, As previous code assessed the North Atlantic Oscillation. Therefore, I thought it would be of interest to compare submicron dust emiisions to an submicron sea salt emissions. I created a composite the year of 2015, and made a scatter plot to demonstrate if there was a global coorelation that was signficant. [Coorelation With Statistical Signficance link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/ComparisonBetter.ipynb)
+Finally, As previous code assessed the North Atlantic Oscillation. Therefore, I thought it would be of interest to compare Submicron Dust Emissions (Bin 001) to an Submicron Sea Salt Emissions (Bin 001). I created a composite the year of 2015, and made a scatter plot to demonstrate if there was a global coorelation that was signficant. [Coorelation With Statistical Signficance link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/ComparisonBetter.ipynb)
 
 
 ## Results
 
-Firstly, on August 25th of the year 2015, submicron dust emissions were the strongest in Western Sahara. Other larger amounts across the globe comparitively include spots in Somalia, the Middle East region, and Northern China.
+Firstly, on August 25th of the year 2015, Submicron Dust Emission (Bin 001) values were the largest in Western Sahara. Other larger amounts across the globe comparitively include spots in Somalia, the Middle East region, and Northern China.
 
 Next, the composite of the AOT show larger values in west Africa. The months of March, April, and December have the highest AOT during the month of 2015. Winter and Spring dust storms are common in west Africa, so the results match up with what is expected. However, the higher values of AOT are located south of the Sahara, which was unexpected. 
 
