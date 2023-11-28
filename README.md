@@ -4,9 +4,8 @@
 
 ## Introduction
 
-Through aggregating calculations, calculating anomalies, composites, comparison and scatter plots, and temporal correlation coefficient calculations, I am to try to understand the physical movement and transport of dust on a global scale. 
-In general, the aim to to describe the influence of dust on a global scale during a selected year, and visualise certain regions throughout the globe that are uniquely prone to anomalies, correlations, etc.
-
+I am applying MERRA-2 Global Data to a variety of different dust related variables to determine unique phenomena.
+In general, the aim to to describe the influence of dust on a global scale during a selected year, and visualise certain regions throughout the globe that are uniquely prone to anomalies, correlations, and other interpretations.
 
 ## Data
 
