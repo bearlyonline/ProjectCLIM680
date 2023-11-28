@@ -25,7 +25,7 @@ North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/
     - To seperate by month, we used the groupby function. This can be found in other codes used throughout this project. [AOT link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CompositeAOT.ipynb)
 
 
-- Using an NAO index from NOAA and Previous AOT data, I looked at Positive and Negative months in the year of 2015, to determine where AOT Anomalies were positive or negative. [NAO To AOT composite link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/NAOtoAOTcomposite.ipynb)
+- Using an NAO index from NOAA and Previous AOT data, I looked at Positive and Negative months in the year of 2015, to determine where AOT Anomalies were positive or negative. For reference, the NAO refers to surface sea-level pressure differences between the subtropical high and subpolar low.  [NAO To AOT composite link](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/NAOtoAOTcomposite.ipynb)
 
 - Calculated the temporal coorelation coefficient between Submicron Dust Emissions (Bin 001) and Dust Extinction AOT (550 nm) - PM 1.0 um. This is of specific interest, as it allows us to determine if the correlation between the two are linearly related enough to be of research interest. Therfore, I applied code that found the [Coorelation Coefficient](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/CoorelationCoef.ipynb) throughout the globe. As well, I used a function to create the tick marks for the latitude and longitude for the plot.
 
