@@ -18,3 +18,10 @@ Data includes 115 different data variables
 AND 
 
 North Atlantic Oscillation (NAO) Climate Index from [NOAA](https://psl.noaa.gov/data/climateindices/list/) that has monthly data from 1948-2023.
+
+## Code Description
+
+Based on my own graduate research, the day of August 25th, 2015 is of specific interest. While my own research is focused on a much smaller region, I was curious to know the level of submicron dust globally on that day. [August 25th](https://github.com/bearlyonline/ProjectCLIM680.github.io/blob/master/Plotmean.ipynb)
+
+## Results
+
