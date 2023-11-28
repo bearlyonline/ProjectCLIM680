@@ -1,0 +1,17 @@
+name: clim-680-aabramow
+channels:
+-conda-forge
+dependencies:
+- python
+- jupyterlab
+- jupyter_client
+- netcdf4
+- numpy
+- xarray
+- matplotlib
+- cartopy
+- pandas
+- scipy
+- cartopy
+- time
+- warnings
