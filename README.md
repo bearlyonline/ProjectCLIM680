@@ -8,7 +8,7 @@ In general, the aim to to describe the influence of submicron dust on a global s
 ## Data
 
 From the year of 2015:
-- The Modern-Era Retrospective analysis for Research and Applications, Version 2 (MERRA-2) , NASA GLOBAL MODELING AND ASSIMILATION OFFICE
+The Modern-Era Retrospective analysis for Research and Applications, Version 2 (MERRA-2) , NASA GLOBAL MODELING AND ASSIMILATION OFFICE
 - Spatial Grid: 2D, single-level, full horizontal resolution
 - Dimensions: longitude=576, latitude=361, time=24, Global 
 - Data includes 115 different data variables
