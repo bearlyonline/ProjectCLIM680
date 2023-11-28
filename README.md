@@ -60,7 +60,7 @@ Next, the correlation between Submicron Dust Emissions (Bin 001) and Dust Extinc
 *Figure 4: Correlation between Submicron Dust Emission (Bin 001) and Dust Extinction AOT (550 nm) - PM 1.0 um* 
 
 
-Finally, submicron dust emmisions are particuarly week monthy. However, months with relatively larger values include, January, March, March and December in the center of Northern Africa. For Sea Salt Emissions, particularly large averages occured in June, July, and August. These occured around the Arabian Sean and Indian Ocean. As well as off the Eastern Coast of China. With a scatter plot, it was found that there was a very small negative coorelation between the two with a p-value of 0.05. This suggests that there is likely little to no coorelation between the two variables.  
+Finally, submicron dust emmisions are particuarly weak monthy. However, months with relatively larger values include, January, March, March and December in the center of Northern Africa. For Sea Salt Emissions, particularly large averages occured in June, July, and August. These occured around the Arabian Sean and Indian Ocean. As well as off the Eastern Coast of China. With a scatter plot, it was found that there was a very small negative coorelation between the two with a p-value of 0.05. This suggests that there is likely little to no coorelation between the two variables.  
 
 ![download](https://github.com/bearlyonline/ProjectCLIM680.github.io/assets/135748104/6a20c595-7f98-4aea-952d-d46a502c9509)
 *Figure 5: Composite Average Submicron Dust Emission (Bin 001)*
