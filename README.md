@@ -1,4 +1,4 @@
-# Analysis of Phenomena Related to Submicron Dust Throughout 2015 
+# Analysis of Phenomena Related to Submicron Dust and Aerosol Optical Thickness (AOT) Throughout 2015 
  
 ## Aidin Raphael Abramowitz
 
